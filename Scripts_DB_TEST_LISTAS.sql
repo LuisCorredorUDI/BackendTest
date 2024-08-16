@@ -1,4 +1,6 @@
 
+--tablas
+
 CREATE TABLE mensaje (
     id NUMBER(6) CONSTRAINT mensaje_pk PRIMARY KEY,
     nick VARCHAR2(50),
