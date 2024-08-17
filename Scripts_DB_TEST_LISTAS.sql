@@ -7,6 +7,8 @@ CREATE TABLE mensaje (
     mensaje VARCHAR2(250)
 );
 
+SELECT*from mensaje;
+
 
 SELECT NVL(MAX(ID),0) FROM MENSAJE;
 
